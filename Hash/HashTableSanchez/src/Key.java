@@ -24,4 +24,8 @@ public class Key<K,V> {
 	V getValue(){
 		return value;
 	}
+
+	void hello(){
+		System.out.println("Hello world");
+	}
 }
